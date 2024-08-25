@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1394653_gxt.gatherNumber</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>gatherNumber</name>
+        <script><![CDATA[var gatherNumber = Class.create();
+gatherNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	numberDetail: function() {
+
+		var number = '';
+		var userid = this.getParamter('sysparm_user_sysid');
+
+		var gr = new GlideRecord('sys_user');
+		gr.addQuery('sys_id', userid);
+		gr.query();
+
+		if (gr.next()) {
+			number = gr.getValue('number');
+		}
+
+		return number;
+	},
+    type: 'gatherNumber'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 18:25:50</sys_created_on>
+        <sys_id>ba3157d3834412106d3e5e20ceaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gatherNumber</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sys_script_include_ba3157d3834412106d3e5e20ceaad3cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 18:25:50</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</application>
+        <file_path/>
+        <instance_id>c19ad598db5dc25002022a5913961930</instance_id>
+        <instance_name>dev250735</instance_name>
+        <name>sys_script_include_ba3157d3834412106d3e5e20ceaad3cd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1394653_gxt.gatherNumber&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;gatherNumber&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var gatherNumber = Class.create();
+gatherNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	numberDetail: function() {
+
+		var number = '';
+		var userid = this.getParamter('sysparm_user_sysid');
+
+		var gr = new GlideRecord('sys_user');
+		gr.addQuery('sys_id', userid);
+		gr.query();
+
+		if (gr.next()) {
+			number = gr.getValue('number');
+		}
+
+		return number;
+	},
+    type: 'gatherNumber'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-21 18:25:50&lt;/sys_created_on&gt;&lt;sys_id&gt;ba3157d3834412106d3e5e20ceaad3cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;gatherNumber&lt;/sys_name&gt;&lt;sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt"&gt;c21be6d3838012106d3e5e20ceaad388&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Galactic Experiment Tracker"&gt;c21be6d3838012106d3e5e20ceaad388&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ba3157d3834412106d3e5e20ceaad3cd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-21 18:25:50&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-961784089</payload_hash>
+        <record_name>gatherNumber</record_name>
+        <reverted_from/>
+        <source>af4be617838012106d3e5e20ceaad3f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 18:25:50</sys_created_on>
+        <sys_id>6f14539b834412106d3e5e20ceaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19176301e340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 18:25:50</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>6314539bea441210ca18f5ca0d85aa0e</update_guid>
+        <update_guid_history>6314539bea441210ca18f5ca0d85aa0e:-961784089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 22:21:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>ccc74197e3784a9ea8c787e6b190a4e4</sys_id>
+        <sys_metadata>ba3157d3834412106d3e5e20ceaad3cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gatherNumber</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_scope_delete display_value="">0023ecdc562e4f92800a97c56fe6c9f1</sys_scope_delete>
+        <sys_update_name>sys_script_include_ba3157d3834412106d3e5e20ceaad3cd</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ba3157d3834412106d3e5e20ceaad3cd">6f14539b834412106d3e5e20ceaad30e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 22:21:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

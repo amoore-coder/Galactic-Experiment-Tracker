@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>experiment_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>autopopulate experiment number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax('gatherNumber'); // gatherNumber is the script include class
+   ga.addParam('sysparm_name', 'numberDetail'); //numberDetail is the script include method
+   ga.addParam('sysparm_user_sysid', g_form.getValue('experiment_name')); //set parameter sysparm_user_sysid to 'experiment_name'
+   ga.getXML(setNumber);
+	/* Call gatherNumber.numberDetail() with the parameter sysparm_user_sysid set to 'experiment_name'
+		and use the callback function setNumber() to return the result when ready */
+
+
+}
+// the callback function for returning the result from the server-side code
+	function setNumber(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('experiment_number', answer);
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 18:39:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5ef87d3834412106d3e5e20ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>autopopulate experiment number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sys_script_client_d5ef87d3834412106d3e5e20ceaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 18:39:40</sys_updated_on>
+        <table>x_1394653_gxt_experiment_status_tracking</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</application>
+        <file_path/>
+        <instance_id>c19ad598db5dc25002022a5913961930</instance_id>
+        <instance_name>dev250735</instance_name>
+        <name>sys_script_client_d5ef87d3834412106d3e5e20ceaad3aa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;experiment_name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;autopopulate experiment number&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax('gatherNumber'); // gatherNumber is the script include class
+   ga.addParam('sysparm_name', 'numberDetail'); //numberDetail is the script include method
+   ga.addParam('sysparm_user_sysid', g_form.getValue('experiment_name')); //set parameter sysparm_user_sysid to 'experiment_name'
+   ga.getXML(setNumber);
+	/* Call gatherNumber.numberDetail() with the parameter sysparm_user_sysid set to 'experiment_name'
+		and use the callback function setNumber() to return the result when ready */
+
+
+}
+// the callback function for returning the result from the server-side code
+	function setNumber(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('experiment_number', answer);
+	}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-21 18:39:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d5ef87d3834412106d3e5e20ceaad3aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;autopopulate experiment number&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt"&gt;c21be6d3838012106d3e5e20ceaad388&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Galactic Experiment Tracker"&gt;c21be6d3838012106d3e5e20ceaad388&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d5ef87d3834412106d3e5e20ceaad3aa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-21 18:39:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1394653_gxt_experiment_status_tracking&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2032116207</payload_hash>
+        <record_name>autopopulate experiment number</record_name>
+        <reverted_from/>
+        <source>af4be617838012106d3e5e20ceaad3f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 18:39:40</sys_created_on>
+        <sys_id>ca475f5f834412106d3e5e20ceaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191763cc97f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 18:39:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ce475f5f724412103d01e1db501a5cb3</update_guid>
+        <update_guid_history>ce475f5f724412103d01e1db501a5cb3:2032116207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 22:22:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>575a22c8400f46e8b02b9b2c195b14e4</sys_id>
+        <sys_metadata>d5ef87d3834412106d3e5e20ceaad3aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>autopopulate experiment number</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_parent display_value="Experiment Status Tracking">64503adb838012106d3e5e20ceaad32f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_scope_delete display_value="">0023ecdc562e4f92800a97c56fe6c9f1</sys_scope_delete>
+        <sys_update_name>sys_script_client_d5ef87d3834412106d3e5e20ceaad3aa</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d5ef87d3834412106d3e5e20ceaad3aa">ca475f5f834412106d3e5e20ceaad3b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 22:22:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

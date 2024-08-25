@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>experiment_name,experiment_number,ability,image</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">04267db3830812106d3e5e20ceaad3a9</sp_column>
+        <sp_page display_value="experiment_registry">37a9ecb3830012106d3e5e20ceaad37f</sp_page>
+        <sp_widget display_value="registry list">91d43573830812106d3e5e20ceaad32c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-23 00:47:05</sys_created_on>
+        <sys_id>c6f4fd33830812106d3e5e20ceaad3ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Registry List</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sp_instance_table_c6f4fd33830812106d3e5e20ceaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-23 00:52:19</sys_updated_on>
+        <table>x_1394653_gxt_experiment_registry</table>
+        <title>Registry List</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6f4fd33830812106d3e5e20ceaad3ec"/>
+</record_update>

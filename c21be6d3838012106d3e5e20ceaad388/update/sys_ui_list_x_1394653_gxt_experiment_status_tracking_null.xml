@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1394653_gxt_experiment_status_tracking" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1394653_gxt_experiment_status_tracking" element="NULL" name="x_1394653_gxt_experiment_status_tracking" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">59f0b61f838012106d3e5e20ceaad3a2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_id>9df0b61f838012106d3e5e20ceaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>experiment_number</element>
+            <list_id display_value="x_1394653_gxt_experiment_status_tracking" element="NULL" name="x_1394653_gxt_experiment_status_tracking" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">59f0b61f838012106d3e5e20ceaad3a2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_id>11f0b61f838012106d3e5e20ceaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>experiment_name</element>
+            <list_id display_value="x_1394653_gxt_experiment_status_tracking" element="NULL" name="x_1394653_gxt_experiment_status_tracking" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">59f0b61f838012106d3e5e20ceaad3a2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_id>91f0b61f838012106d3e5e20ceaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_1394653_gxt_experiment_status_tracking" element="NULL" name="x_1394653_gxt_experiment_status_tracking" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">59f0b61f838012106d3e5e20ceaad3a2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_id>15f0b61f838012106d3e5e20ceaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_1394653_gxt_experiment_status_tracking" element="NULL" name="x_1394653_gxt_experiment_status_tracking" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">59f0b61f838012106d3e5e20ceaad3a2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_id>5df0b61f838012106d3e5e20ceaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1394653_gxt_experiment_status_tracking" element="NULL" name="x_1394653_gxt_experiment_status_tracking" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">59f0b61f838012106d3e5e20ceaad3a2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_id>ddf0b61f838012106d3e5e20ceaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1394653_gxt_experiment_status_tracking</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-21 15:52:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59f0b61f838012106d3e5e20ceaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1394653_gxt_experiment_status_tracking</sys_name>
+            <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+            <sys_update_name>sys_ui_list_x_1394653_gxt_experiment_status_tracking_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-21 15:52:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

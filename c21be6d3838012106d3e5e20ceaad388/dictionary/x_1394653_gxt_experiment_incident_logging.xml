@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="39acbadb83c012106d3e5e20ceaad301" label="Experiment Incident Logging" max_length="40" name="x_1394653_gxt_experiment_incident_logging" type="collection">
+        <element attributes="encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened" max_length="40" name="opened" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Damage" sequence="1" value="Damage"/>
+                <element inactive_on_update="false" label="Misbehavior" sequence="2" value="Misbehavior"/>
+                <element inactive_on_update="false" label="Missing" sequence="0" value="Missing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="1000" name="short_description" type="string"/>
+        <element attributes="encode_utf8=false" label="Experiment Name" max_length="32" name="experiment_name" reference="x_1394653_gxt_experiment_registry" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="caller"/>
+        </index>
+        <index name="index4">
+            <element name="experiment_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1394653_gxt.experiment_status_tracking_user" name="x_1394653_gxt.experiment_status_tracking_user">4e60fa1b838012106d3e5e20ceaad374</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:49:50</sys_created_on>
+        <sys_id>8260fa1b838012106d3e5e20ceaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4e60fa1b838012106d3e5e20ceaad374</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8260fa1b838012106d3e5e20ceaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:49:50</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

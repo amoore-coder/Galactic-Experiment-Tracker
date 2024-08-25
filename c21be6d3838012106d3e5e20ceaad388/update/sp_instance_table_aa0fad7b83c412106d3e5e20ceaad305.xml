@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>experiment_name</display_field>
+        <field_list>experiment_name,experiment_number,ability,image</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>25</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">01d9500bc3231200e44574e1c1d3ae83</sp_column>
+        <sp_page display_value="experiment_registry">37a9ecb3830012106d3e5e20ceaad37f</sp_page>
+        <sp_widget display_value="Registry Table">2181317f83c412106d3e5e20ceaad36b</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-23 00:29:27</sys_created_on>
+        <sys_id>aa0fad7b83c412106d3e5e20ceaad305</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sp_instance_table_aa0fad7b83c412106d3e5e20ceaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-23 00:42:02</sys_updated_on>
+        <table>x_1394653_gxt_experiment_registry</table>
+        <title>List</title>
+        <url>https://dev250735.service-now.com/now/nav/ui/classic/params/target/x_1394653_gxt_experiment_registry_list.do%3Fsysparm_userpref_module%3D704f2e5b838012106d3e5e20ceaad336</url>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa0fad7b83c412106d3e5e20ceaad305"/>
+</record_update>
