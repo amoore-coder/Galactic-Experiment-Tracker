@@ -1,0 +1,1 @@
+This is a ServiceNow application called Galactic Experiment Tracker based on the Lilo & Stitch movie. The app helps track the various experiments, or "Stitch's cousins," that Lilo and her friends discover. With each experiment having unique characteristics, the app will help monitor their statuses, abilities, and location.
