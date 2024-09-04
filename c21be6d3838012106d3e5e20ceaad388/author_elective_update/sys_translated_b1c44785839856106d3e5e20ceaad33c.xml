@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="DELETE">
+        <element>name</element>
+        <id/>
+        <label>New Tab 2</label>
+        <language>en</language>
+        <name>pa_tabs</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 03:48:11</sys_created_on>
+        <sys_id>b1c44785839856106d3e5e20ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 2</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sys_translated_b1c44785839856106d3e5e20ceaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 03:48:11</sys_updated_on>
+        <value>31c40385839856106d3e5e20ceaad381New Tab 2</value>
+    </sys_translated>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</application>
+        <file_path/>
+        <instance_id>c19ad598db5dc25002022a5913961930</instance_id>
+        <instance_name>dev250735</instance_name>
+        <name>sys_translated_b1c44785839856106d3e5e20ceaad33c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated"><sys_translated action="INSERT_OR_UPDATE"><element>name</element><id/><label>New Tab 2</label><language>en</language><name>pa_tabs</name><sys_class_name>sys_translated</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 03:48:11</sys_created_on><sys_id>b1c44785839856106d3e5e20ceaad33c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 2</sys_name><sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package><sys_policy/><sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope><sys_update_name>sys_translated_b1c44785839856106d3e5e20ceaad33c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 03:48:11</sys_updated_on><value>31c40385839856106d3e5e20ceaad381New Tab 2</value></sys_translated></record_update>]]></payload>
+        <payload_hash>1753612067</payload_hash>
+        <record_name>New Tab 2</record_name>
+        <reverted_from/>
+        <source>af4be617838012106d3e5e20ceaad3f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 03:48:12</sys_created_on>
+        <sys_id>cec44785839856106d3e5e20ceaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19191f2c4f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 03:48:12</sys_updated_on>
+        <type>Translated Name / Field</type>
+        <update_guid>f1c44785c098561021c1599ca3ce843d</update_guid>
+        <update_guid_history>f1c44785c098561021c1599ca3ce843d:1753612067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 03:48:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_translated">sys_translated</sys_db_object>
+        <sys_id>03a61c16594843da80433d2c97d3c6a9</sys_id>
+        <sys_metadata>b1c44785839856106d3e5e20ceaad33c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 2</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_scope_delete display_value="">0023ecdc562e4f92800a97c56fe6c9f1</sys_scope_delete>
+        <sys_update_name>sys_translated_b1c44785839856106d3e5e20ceaad33c</sys_update_name>
+        <sys_update_version display_value="sys_translated_b1c44785839856106d3e5e20ceaad33c">cec44785839856106d3e5e20ceaad33d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 03:48:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

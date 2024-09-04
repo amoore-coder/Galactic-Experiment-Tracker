@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="64503adb838012106d3e5e20ceaad32f" label="Experiment Status Tracking" max_length="40" name="x_1394653_gxt_experiment_status_tracking" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="additional_comments" type="string"/>
-        <element attributes="encode_utf8=false" display="true" label="Experiment Name" max_length="32" name="experiment_name" reference="x_1394653_gxt_experiment_registry" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="Experiment Name" mandatory="true" max_length="32" name="experiment_name" reference="x_1394653_gxt_experiment_registry" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Tracker Status" max_length="40" name="tracker_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
                 <element inactive_on_update="false" label="Closed" sequence="1" value="Closed"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Experiment Number" max_length="100" name="experiment_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Experiment Number" max_length="100" name="experiment_number" reference="x_1394653_gxt_experiment_registry" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Location" max_length="1000" name="location" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Experiment Status" max_length="40" name="status" type="string">
             <choice>

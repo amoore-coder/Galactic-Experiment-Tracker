@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>5</order>
+        <published_ref/>
+        <question display_value="Experiment Status">ede29901835056106d3e5e20ceaad3b2</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-26 19:30:39</sys_created_on>
+        <sys_id>79e29901835056106d3e5e20ceaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Returned to Caretaker</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>question_choice_79e29901835056106d3e5e20ceaad3e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:30:39</sys_updated_on>
+        <text>Returned to Caretaker</text>
+        <value>Returned to Caretaker</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=79e29901835056106d3e5e20ceaad3e6"/>
+</record_update>

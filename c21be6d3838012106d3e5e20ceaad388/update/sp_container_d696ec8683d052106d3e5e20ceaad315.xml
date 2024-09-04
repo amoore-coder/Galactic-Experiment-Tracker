@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Experiment Incidents - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="experiment_incidents">da96ec8683d052106d3e5e20ceaad310</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 18:51:01</sys_created_on>
+        <sys_id>d696ec8683d052106d3e5e20ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Experiment Incidents - Container 1</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_update_name>sp_container_d696ec8683d052106d3e5e20ceaad315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 18:51:01</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

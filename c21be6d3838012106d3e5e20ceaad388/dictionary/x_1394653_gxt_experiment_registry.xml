@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" label="Ability" max_length="4000" name="ability" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Location" max_length="1000" name="location" type="string"/>
         <element attributes="encode_utf8=false" label="Assigned Caretaker" max_length="32" name="assigned_caretaker" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Experiment Number" mandatory="true" max_length="100" name="experiment_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Experiment Number" mandatory="true" max_length="100" name="experiment_number" read_only="true" type="string"/>
         <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Experiment Name" mandatory="true" max_length="100" name="experiment_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="string">

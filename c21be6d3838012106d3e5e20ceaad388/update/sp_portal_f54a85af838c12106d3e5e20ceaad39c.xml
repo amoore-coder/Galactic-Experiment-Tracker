@@ -27,13 +27,13 @@ $text-muted:#646567;&#13;
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <homepage display_value="galactic_home_page">dfc00341839856106d3e5e20ceaad3e3</homepage>
         <icon>75df01a383cc12106d3e5e20ceaad385</icon>
         <kb_knowledge_base/>
-        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <kb_knowledge_page display_value="galactic_kb_home">851ca25a831012106d3e5e20ceaad3a3</kb_knowledge_page>
         <login_page/>
         <logo>8923556b83cc12106d3e5e20ceaad36b</logo>
-        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <notfound_page display_value="galactic_404">fc1d269a831012106d3e5e20ceaad390</notfound_page>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>
         <sc_catalog/>
@@ -47,14 +47,14 @@ $text-muted:#646567;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-22 03:31:25</sys_created_on>
         <sys_id>f54a85af838c12106d3e5e20ceaad39c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Galactic Experiment Tracker</sys_name>
         <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
         <sys_policy/>
         <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
         <sys_update_name>sp_portal_f54a85af838c12106d3e5e20ceaad39c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-23 01:17:41</sys_updated_on>
+        <sys_updated_on>2024-08-30 23:17:27</sys_updated_on>
         <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
         <title>Galactic Experiment Tracker</title>
         <ts_index_group/>

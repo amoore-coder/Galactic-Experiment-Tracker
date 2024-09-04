@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>611c0313834412106d3e5e20ceaad398</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>35aaa54183d056106d3e5e20ceaad3a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>experiment_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>e51c0313834412106d3e5e20ceaad398</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>b9aaa54183d056106d3e5e20ceaad3a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>experiment_number</element>
+            <element>experiment_name.experiment_number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>6d1c0313834412106d3e5e20ceaad398</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>31aaa54183d056106d3e5e20ceaad3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>e11c0313834412106d3e5e20ceaad399</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>b5aaa54183d056106d3e5e20ceaad3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>status</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>691c0313834412106d3e5e20ceaad399</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>3daaa54183d056106d3e5e20ceaad3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>tracker_status</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>ed1c0313834412106d3e5e20ceaad399</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>b1aaa54183d056106d3e5e20ceaad3a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>651c0313834412106d3e5e20ceaad39a</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>39aaa54183d056106d3e5e20ceaad3a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>location</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>e91c0313834412106d3e5e20ceaad39a</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>bdaaa54183d056106d3e5e20ceaad3a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>additional_comments</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-21 17:50:46</sys_created_on>
-            <sys_id>611c0313834412106d3e5e20ceaad39b</sys_id>
+            <sys_created_on>2024-08-26 21:14:25</sys_created_on>
+            <sys_id>35aaa54183d056106d3e5e20ceaad3a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1394653_gxt_experiment_status_tracking" sys_domain="global" view="Default view">4c21b61f838012106d3e5e20ceaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-21 17:50:46</sys_updated_on>
+            <sys_updated_on>2024-08-26 21:14:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:29:35</sys_created_on>
+        <sys_id>a9cbe257838012106d3e5e20ceaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1394653_gxt_experiment_registry.x_1394653_gxt.experiment_registry_user</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_security_acl display_value="x_1394653_gxt_experiment_registry">e9cbe257838012106d3e5e20ceaad366</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a9cbe257838012106d3e5e20ceaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:29:35</sys_updated_on>
+        <sys_user_role display_value="x_1394653_gxt.experiment_registry_user" name="x_1394653_gxt.experiment_registry_user">d5cbaa17838012106d3e5e20ceaad3d6</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</application>
+        <file_path/>
+        <instance_id>c19ad598db5dc25002022a5913961930</instance_id>
+        <instance_name>dev250735</instance_name>
+        <name>sys_security_acl_role_a9cbe257838012106d3e5e20ceaad369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-21 15:29:35</sys_created_on><sys_id>a9cbe257838012106d3e5e20ceaad369</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1394653_gxt_experiment_registry.x_1394653_gxt.experiment_registry_user</sys_name><sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package><sys_policy/><sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope><sys_security_acl display_value="x_1394653_gxt_experiment_registry">e9cbe257838012106d3e5e20ceaad366</sys_security_acl><sys_update_name>sys_security_acl_role_a9cbe257838012106d3e5e20ceaad369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-21 15:29:35</sys_updated_on><sys_user_role display_value="x_1394653_gxt.experiment_registry_user" name="x_1394653_gxt.experiment_registry_user">d5cbaa17838012106d3e5e20ceaad3d6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1239940801</payload_hash>
+        <record_name>x_1394653_gxt_experiment_registry.x_1394653_gxt.experiment_registry_user</record_name>
+        <reverted_from/>
+        <source>af4be617838012106d3e5e20ceaad3f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:29:35</sys_created_on>
+        <sys_id>e1cbe257838012106d3e5e20ceaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191758ec0b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:29:35</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e5cbe257de80121025feb7e690de716b</update_guid>
+        <update_guid_history>e5cbe257de80121025feb7e690de716b:-1239940801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1394653_gxt_experiment_registry.x_1394653_gxt.experiment_registry_user">21a1d99d831012106d3e5e20ceaad37a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 14:03:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>49c5f5e85b33474fa6a79cbb3783eb19</sys_id>
+        <sys_metadata>a9cbe257838012106d3e5e20ceaad369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1394653_gxt_experiment_registry.x_1394653_gxt.experiment_registry_user</sys_name>
+        <sys_package display_value="Galactic Experiment Tracker" source="x_1394653_gxt">c21be6d3838012106d3e5e20ceaad388</sys_package>
+        <sys_parent display_value="x_1394653_gxt_experiment_registry">e9cbe257838012106d3e5e20ceaad366</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Galactic Experiment Tracker">c21be6d3838012106d3e5e20ceaad388</sys_scope>
+        <sys_scope_delete display_value="">0023ecdc562e4f92800a97c56fe6c9f1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a9cbe257838012106d3e5e20ceaad369</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a9cbe257838012106d3e5e20ceaad369">e1cbe257838012106d3e5e20ceaad36c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:03:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
